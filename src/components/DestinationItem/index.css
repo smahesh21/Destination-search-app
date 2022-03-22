@@ -1,0 +1,26 @@
+.card-container {
+  height: 350px;
+  max-width: 500px;
+}
+@media screen and (max-width: 576px) {
+  .card-container {
+    max-width: 300px;
+    height: 250px;
+  }
+}
+.card {
+  height: 80%;
+  width: 100%;
+  background-color: #ffffff;
+  text-align: left;
+}
+.image {
+  height: 100%;
+  width: 100%;
+  border-radius: 12px;
+}
+.heading {
+  font-family: 'Roboto';
+  font-size: 18px;
+  color: #252627;
+}
